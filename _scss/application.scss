@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+// settings
+@import "settings/settings.scss";
+
+//generic
+@import "generic/reset.scss"
+
+
+body {
+    background-color: $base-color;
+}
