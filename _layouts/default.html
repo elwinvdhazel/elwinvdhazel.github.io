@@ -3,23 +3,38 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="apple-mobile-web-app-capable" content="no" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
         <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
-        
-        <link rel="stylesheet" href="/css/application.css">
+
+        <link rel="apple-touch-icon-precomposed" href="icon-152x152.png">
+
+        <meta name="msapplication-TileColor" content="#202020">
+        <meta name="msapplication-TileImage" content="icon-144x144.png">
+
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="icon-152x152.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="icon-144x144.png">
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="icon-120x120.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="icon-114x114.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="icon-72x72.png">
+        <link rel="apple-touch-icon-precomposed" href="icon-57x57.png">
+
+        <link rel="icon" href="icon-32x32.png" sizes="32x32">
+
+        <!-- SEO -->
+        <meta name="author" content="{{ site.author }}">
+        <meta name="description" content="{{ site.description }}">
+        <meta name="keywords" content="">
+
+      	<link rel="stylesheet" href="/css/application.css">
 
     </head>
     <body>
-
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <!-- <a class="extra" href="/">home</a> -->
-          </div>
-
-          {{ content }}
-
-        </div>
-
+        <main class="main main-container">
+            <div class="logo"></div>
+        </main>
     </body>
 </html>
