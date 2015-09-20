@@ -1,2 +1,2 @@
-# vdhazel.com
-Online portfolio 2015
+# evdhazel.github.io
+Personal landingpage
