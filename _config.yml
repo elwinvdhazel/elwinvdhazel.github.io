@@ -6,4 +6,4 @@ author: Elwin van den Hazel
 
 author_email: elwin@vdhazel.com
 
-exclude: ["README.md", "node_modules", "gulpfile.js", "package.json"]
+exclude: ["README.md", "node_modules", "gulpfile.js", "package.json", "img/src"]
