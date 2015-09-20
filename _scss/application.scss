@@ -3,10 +3,17 @@
 // settings
 @import "settings/settings.scss";
 
+// tools
+@import "tools/box-sizing.scss";
+
 //generic
-@import "generic/reset.scss"
+@import "generic/reset.scss";
 
+// base
+@import "base/layout.scss";
 
-body {
-    background-color: $base-color;
-}
+// objects
+@import "objects/pages.scss";
+
+// components
+@import "components/branding.scss";

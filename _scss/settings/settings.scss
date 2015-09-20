@@ -1,1 +1,40 @@
-$base-color: green; 
+// grid settings
+
+$base-padding--large: 20px;
+$base-padding--medium: $base-padding--large/2;
+$base-padding--small: $base-padding--large/4;
+
+$grid-gutter--large: $base-padding--large;
+$grid-gutter--medium: $base-padding--medium;
+$grid-gutter--small: $base-padding--small;
+
+$grid-break--large: 1024px;
+$grid-break--medium: 880px;
+$grid-break--small: 680px;
+
+$menu-break: 1090px;
+
+$container--large: 1024px;
+$container--medium: 880px;
+$container--small: 680px;
+
+
+// color settings
+
+$base-black: #202020;
+$base-black--hover: lighten($base-black, 50%);
+
+$base-white: #FFFFFF;
+$base-white--hover: lighten($base-white, 50%);
+
+
+// typography settings
+
+$base-font: "Helvetica", sans-serif;
+$base-font--size: 16px;
+$base-font--weight: 600;
+$base-font--lineheight: 1.4em;
+
+$font-size--large: $base-font--size*1.5;
+$font-size--medium: $base-font--size*1.125;
+$font-size--small: $base-font--size;
